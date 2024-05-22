@@ -6,7 +6,7 @@ Seat_No char(3),
 Name varchar(20),
 Phnone_No varchar(20),
 Mail_ID varchar(50))
-ss
+
 
 Select * From Movie_Tickets
 
@@ -63,7 +63,7 @@ exec  [dbo].InsertData_MveTickets  'Archana','9945638240','Archana@gmail.com'
 
 Select * from [dbo].[Movie_Tickets]
 
-*/
+
 
 
 
