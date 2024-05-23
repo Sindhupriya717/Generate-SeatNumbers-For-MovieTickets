@@ -1,5 +1,5 @@
 ## Project Description:
-Generating seat numbers for movie tickets involves a multi-step process that includes creating a table to store ticket information, developing a function to generate sequential seat numbers, and implementing a stored procedure to insert these seat numbers into the table.
+Generating Seat numbers for movie tickets involves a multi-step process that includes creating a table to store ticket information, developing a function to generate sequential seat numbers, and implementing a stored procedure to insert these seat numbers into the table.
 
 ## Goal:
 To establish a streamlined process for generating sequential seat numbers by first creating a dedicated **Movie_Tickets** table, then developing a function **Get_MovieTickets** for seat number generation, and finally implementing a stored procedure **InsertData_MveTickets** to insert these numbers into the table along with the relevant ticket details.
