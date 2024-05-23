@@ -15,7 +15,7 @@ I have created a table called Movie_Tickets with the following columns: Sno, Sea
 ### 2.Function Creation:
 Later, I created a function called Get_MovieTickets with the following parameters: @Seat_No, @Name, @MaxSeatNo, @Letter, and @Number. Within the function, I have composed a query to display alphabets starting from 'A' and numbers from 1 to 6. The function includes a condition to execute the sequence from A1 to A6, then move to the next alphabet 'B' and repeat the process, generating sequences like B1 to B6, followed by C1 to C6, and so on. Execute the function to see the results.
 
-![Screenshot 2024-05-23 144349](https://github.com/Sindhupriya717/Generate-SeatNumbers-For-MovieTickets/assets/133346654/9c77c787-54d5-463f-ab67-aaa99a952f92)
+![Screenshot 2024-05-23 150244](https://github.com/Sindhupriya717/Generate-SeatNumbers-For-MovieTickets/assets/133346654/c8d968d2-b01e-41c4-844c-29377e55425e)
 
 ### 3.Stored Procedure Creation:
 Following the function's creation, I proceeded to develop a stored procedure named InsertData_MveTickets. This procedure accepts input variables such as @Name, @Phone_No, and @Mail_Id. By combining the stored procedure and the function, I have set up a system where the Movie_Tickets table can be populated with relevant data, with Seat_No values being generated in a sequential and organized manner. Once rows are inserted using the stored procedure, querying the Movie_Tickets table will display Seat_No values ranging from A1 to A6, followed by B1 to B6, and continuing in this pattern.
