@@ -8,7 +8,7 @@ Finally, create a stored procedure that calls the function to insert seat number
 ## Insights :
 
 ### 1.Table Creation:
-I have recently created a table called Movie_Tickets with the following columns: Sno, Seat_No, Name, Phone_No, and Mail_ID. The Seat_No column has been designated as an auto-identity column. Currently, the table remains empty as no rows have been inserted into it. However, I plan to populate it with data using a stored procedure.
+I have created a table called Movie_Tickets with the following columns: Sno, Seat_No, Name, Phone_No, and Mail_ID. The Seat_No column has been designated as an auto-identity column. Currently, the table remains empty as no rows have been inserted into it. However, I plan to populate it with data using a stored procedure.
 
 ![Screenshot 2024-05-22 181939](https://github.com/Sindhupriya717/Generate-SeatNumbers-For-MovieTickets/assets/133346654/79e26c9d-65a8-4b5f-9e0e-d2ebdbdf7b28)
 
