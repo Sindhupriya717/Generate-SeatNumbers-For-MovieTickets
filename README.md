@@ -18,7 +18,7 @@ Later, I created a function called Get_MovieTickets with the following parameter
 ![Screenshot 2024-05-23 150244](https://github.com/Sindhupriya717/Generate-SeatNumbers-For-MovieTickets/assets/133346654/c8d968d2-b01e-41c4-844c-29377e55425e)
 
 ### 3.Stored Procedure Creation:
-Following the function's creation, I proceeded to develop a stored procedure named InsertData_MveTickets. This procedure accepts input variables such as @Name, @Phone_No, and @Mail_Id. By combining the stored procedure and the function, I have set up a system where the Movie_Tickets table can be populated with relevant data, with Seat_No values being generated in a sequential and organized manner. Once rows are inserted using the stored procedure, querying the Movie_Tickets table will display Seat_No values ranging from A1 to A6, followed by B1 to B6, and continuing in this pattern.
+Following the function creation, I proceeded to develop a stored procedure named InsertData_MveTickets. This procedure accepts input variables such as @Name, @Phone_No, and @Mail_Id. By combining the stored procedure and the function, I have set up a system where the Movie_Tickets table can be populated with relevant data, with Seat_No values being generated in a sequential and organized manner. Once rows are inserted using the stored procedure, querying the Movie_Tickets table will display Seat_No values ranging from A1 to A6, followed by B1 to B6, and continuing in this pattern.
 
 #### Output:
 ![Screenshot 2024-05-22 182041](https://github.com/Sindhupriya717/Generate-SeatNumbers-For-MovieTickets/assets/133346654/d32183ac-e44e-4969-aebe-88e2f0b8fd38)
